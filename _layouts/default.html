@@ -14,30 +14,17 @@
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
+        <div class="wrapper">
+          <header>
+			<img src="2012-09-22_22-18-11_315.jpg" width="100px">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
-          </div>
+          </header>
 
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+		  <section class="content">
+            {{ content }}
+		  </section>
+		
         </div>
 
     </body>
